@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "esNext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "emitDeclarationOnly": true,
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "baseUrl": "/root/GITHUB/ts-path-resolve-bug/packages/web/src",
+    "skipLibCheck": true,
+    "incremental": true,
+    "outDir": "src",
+    "paths": {
+      "*": [
+        "//wsl$/ubuntu/root/GITHUB/ts-path-resolve-bug/packages/web/node_modules/*"
+      ],
+      "@": [
+        "//wsl$/ubuntu/root/GITHUB/ts-path-resolve-bug/packages/web/src/index"
+      ],
+      "@/*": [
+        "//wsl$/ubuntu/root/GITHUB/ts-path-resolve-bug/packages/web/src/*"
+      ]
+    }
+  },
+  "include": [
+    "/root/GITHUB/ts-path-resolve-bug/packages/web/src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

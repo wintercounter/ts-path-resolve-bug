@@ -1,0 +1,1 @@
+import Cmp from '@/components/Cmp'
